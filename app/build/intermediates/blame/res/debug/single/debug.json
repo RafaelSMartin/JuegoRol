@@ -864,6 +864,10 @@
         "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\28e9e073ab7c1e197ae08c686bfe29bf\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\JuegoRol\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\AndroidStudioProjects\\JuegoRol\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -1384,12 +1388,12 @@
         "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\28e9e073ab7c1e197ae08c686bfe29bf\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\AndroidStudioProjects\\JuegoRol\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_login.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\JuegoRol\\app\\src\\main\\res\\layout\\view_login.xml"
     },
     {
-        "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\AndroidStudioProjects\\JuegoRol\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\AndroidStudioProjects\\JuegoRol\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
