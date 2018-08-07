@@ -2121,7 +2121,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -4000,8 +4000,9 @@ public final class R {
     public static final int select_dialog_multichoice_material=0x7f0a003a;
     public static final int select_dialog_singlechoice_material=0x7f0a003b;
     public static final int support_simple_spinner_dropdown_item=0x7f0a003c;
-    public static final int view_login=0x7f0a003d;
-    public static final int view_menu=0x7f0a003e;
+    public static final int view_create_pj=0x7f0a003d;
+    public static final int view_login=0x7f0a003e;
+    public static final int view_menu=0x7f0a003f;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0b0000;
@@ -9358,7 +9359,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>

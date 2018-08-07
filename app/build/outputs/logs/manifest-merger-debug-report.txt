@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6614d86ad4eb710bf6cd69be779bc370\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\ebd3d8c6fea7e7c34eec1d8f004ee6b9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2655fe5b7f22fbe803d00a0f04375d70\AndroidManifest.xml:17:1-22:12
@@ -25,25 +25,25 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Rafael S Marti
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cfd76d990c60baa39ba690fd5a425c0a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8dcd9eb565c2094922b75a892f617eff\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\dbc5350be57561a6f25eaa42e46c841e\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml
 		INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml
-		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml
-		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:5:5-31:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\9536ab9b2f7bb78ef142a34cf0788f47\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\9536ab9b2f7bb78ef142a34cf0788f47\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.6.1] C:\Users\Rafael S Martin\.gradle\caches\transforms-1\files-1.1\glide-4.6.1.aar\f882cac4df01793b4c8870a6ac0c64d6\AndroidManifest.xml:11:5-20
@@ -78,6 +78,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
 		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.rafaels.juegorol.createpj.CreatePjActivity
+ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:20:9-63
+	android:name
+		ADDED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml:20:19-60
 uses-sdk
 INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\AndroidStudioProjects\JuegoRol\app\src\main\AndroidManifest.xml

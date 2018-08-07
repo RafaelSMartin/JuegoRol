@@ -1,6 +1,9 @@
 package com.rafaels.juegorol.menu;
 
 import android.app.Activity;
+import android.content.Intent;
+
+import com.rafaels.juegorol.createpj.CreatePjActivity;
 
 public class MenuPresenter implements ContractMenu.MenuPresenter {
 
@@ -23,8 +26,8 @@ public class MenuPresenter implements ContractMenu.MenuPresenter {
 
     @Override
     public void onClickCreatePjPresenter(Activity startingActivity) {
-//        Intent intent = new Intent(startingActivity, CreatePj.class);
-//        startingActivity.startActivity(intent);
+        Intent intent = new Intent(startingActivity, CreatePjActivity.class);
+        startingActivity.startActivity(intent);
     }
 
     @Override
