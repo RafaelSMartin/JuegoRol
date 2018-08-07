@@ -4,7 +4,7 @@
             "outputFile": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\28e9e073ab7c1e197ae08c686bfe29bf\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ebd3d8c6fea7e7c34eec1d8f004ee6b9\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\21adb9c5460f64366c8ec8cbb903bbc0\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\710cd3e7b515de00a106124e8796a5eb\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
