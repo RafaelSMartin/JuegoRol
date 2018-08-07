@@ -17,14 +17,26 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.rafaels.juegorol.login.LoginActivity" >
+        <activity
+            android:name="com.rafaels.juegorol.menu.MenuActivity"
+            android:theme="@style/MenuStyle" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- <activity android:name=".login.LoginActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
 
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".menu.MenuActivity" -->
+        <!-- android:theme="@style/MenuStyle"/> -->
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.rafaels.juegorol.com.android.tools.ir.server.InstantRunContentProvider"

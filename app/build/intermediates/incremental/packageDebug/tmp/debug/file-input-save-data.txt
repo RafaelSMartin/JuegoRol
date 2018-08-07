@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Aug 06 19:31:34 CEST 2018
+#Tue Aug 07 18:41:18 CEST 2018
 2.base=C\:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
 5.set=DEX
 0.path=classes.dex

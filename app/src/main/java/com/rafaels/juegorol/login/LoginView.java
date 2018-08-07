@@ -14,7 +14,7 @@ import com.rafaels.juegorol.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class LoginView extends Fragment implements  Contract.LoginView{
+public class LoginView extends Fragment implements  ContractLogin.LoginView{
     public static final String TAG = "LoginView";
 
     @BindView(R.id.input_email)
@@ -67,9 +67,13 @@ public class LoginView extends Fragment implements  Contract.LoginView{
         super.onViewCreated(view, saveInstanceState);
 
         // Añade aqui tu codigo el cual se ejecutara despues de onCreateView().
-        loginButton.setOnClickListener(view1 -> loginPresenter.onClickLoginPresenter(
-                emailText.getText().toString(),
-                passwordText.getText().toString()));
+
+        loginButton.setOnClickListener(viewLoginButton -> {
+            loginButton.setEnabled(false);
+            loginPresenter.onClickLoginPresenter(
+                    emailText.getText().toString(),
+                    passwordText.getText().toString());
+        });
 
     }
 
@@ -91,6 +95,7 @@ public class LoginView extends Fragment implements  Contract.LoginView{
     public void onLoginSuccess() {
         Toast.makeText(getActivity(), "LoginSuccess", Toast.LENGTH_SHORT).show();
         loginButton.setEnabled(true);
+        loginPresenter.showMenuActivityPresenter(getActivity());
     }
 
     @Override

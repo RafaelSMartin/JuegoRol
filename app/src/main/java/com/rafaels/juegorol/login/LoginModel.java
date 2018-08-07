@@ -1,11 +1,11 @@
 package com.rafaels.juegorol.login;
 
-public class LoginModel implements Contract.LoginModel {
+public class LoginModel implements ContractLogin.LoginModel {
 
     private LoginPresenter loginPresenter;
 
-    public LoginModel(LoginPresenter presenter){
-        this.loginPresenter = presenter;
+    public LoginModel(LoginPresenter loginPresenter){
+        this.loginPresenter = loginPresenter;
     }
 
 }

@@ -1,8 +1,13 @@
 package com.rafaels.juegorol.login;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.util.Log;
+import android.util.Patterns;
 
-public class LoginPresenter implements Contract.LoginPresenter {
+import com.rafaels.juegorol.menu.MenuActivity;
+
+public class LoginPresenter implements ContractLogin.LoginPresenter {
 
     private LoginView loginView;
     private LoginModel loginModel;
@@ -16,11 +21,19 @@ public class LoginPresenter implements Contract.LoginPresenter {
     public void onClickLoginPresenter(String email, String password) {
         Log.d("testeo0", email.length()+"----"+email);
         Log.d("testeo1", password.length()+"----"+password);
-        if((email.length() > 3) && (password.length() > 3)){
-            loginView.onLoginSuccess();
-        } else{
+
+        if(email.isEmpty() || !Patterns.EMAIL_ADDRESS.matcher(email).matches() ||
+                password.isEmpty() || password.length() < 6 || password.length() > 16){
             loginView.onLoginFailed();
+        } else{
+            loginView.onLoginSuccess();
         }
+    }
+
+    @Override
+    public void showMenuActivityPresenter(Activity startingActivity) {
+        Intent intent = new Intent(startingActivity, MenuActivity.class);
+        startingActivity.startActivity(intent);
     }
 
 

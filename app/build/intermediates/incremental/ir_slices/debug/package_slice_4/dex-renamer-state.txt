@@ -1,4 +1,4 @@
-#Mon Aug 06 18:40:30 CEST 2018
+#Tue Aug 07 18:17:23 CEST 2018
 base.0=C\:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
 path.0=classes.dex
 renamed.0=classes.dex
