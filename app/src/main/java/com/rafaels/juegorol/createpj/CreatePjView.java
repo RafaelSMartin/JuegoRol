@@ -2,19 +2,12 @@ package com.rafaels.juegorol.createpj;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.RelativeLayout;
 
 import com.rafaels.juegorol.R;
-import com.rafaels.juegorol.createpj.characteristics.Characteristics;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class CreatePjView extends Fragment implements ContractCreatePj.CreatePjView {
