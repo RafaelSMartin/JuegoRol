@@ -716,10 +716,6 @@
         "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ebd3d8c6fea7e7c34eec1d8f004ee6b9\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_item_color_state.xml.flat",
-        "source": "C:\\AndroidStudioProjects\\JuegoRol\\app\\src\\main\\res\\drawable\\nav_item_color_state.xml"
-    },
-    {
         "merged": "C:\\AndroidStudioProjects\\JuegoRol\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
         "source": "C:\\Users\\Rafael S Martin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ebd3d8c6fea7e7c34eec1d8f004ee6b9\\res\\layout\\select_dialog_item_material.xml"
     },

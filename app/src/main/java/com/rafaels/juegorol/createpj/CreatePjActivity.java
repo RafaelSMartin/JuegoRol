@@ -15,7 +15,7 @@ import butterknife.ButterKnife;
 
 public class CreatePjActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
-    @BindView(R.id.fragment_create_pj)
+    @BindView(R.id.fragment_root)
     RelativeLayout fragmentCreatePj;
 
     @BindView(R.id.bottom_navigation_view)
@@ -58,7 +58,7 @@ public class CreatePjActivity extends AppCompatActivity implements BottomNavigat
             createPjView = new CreatePjView();
             getFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.fragment_create_pj, createPjView, CreatePjView.TAG)
+                    .replace(R.id.fragment_root, createPjView, CreatePjView.TAG)
                     .commit();
         }
     }
@@ -70,7 +70,7 @@ public class CreatePjActivity extends AppCompatActivity implements BottomNavigat
             characteristics = new Characteristics();
             getFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.fragment_create_pj, characteristics, Characteristics.TAG)
+                    .replace(R.id.fragment_root, characteristics, Characteristics.TAG)
                     .commit();
         }
     }

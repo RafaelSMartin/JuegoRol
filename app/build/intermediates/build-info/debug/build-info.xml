@@ -7,19 +7,19 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.4"
-    timestamp="1534325614483"
+    timestamp="1534326438061"
     token="-8177112084577724105"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1444" />
+        duration="1473" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="33" />
+        duration="29" />
     <task
         name="verifier"
         duration="3" />
@@ -75,13 +75,16 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1534325332060"
+        timestamp="1534326226747"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -92,23 +95,11 @@
         <artifact
             location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1534325552632"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1534325614483"
+        timestamp="1534326438061"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\AndroidStudioProjects\JuegoRol\app\build\intermediates\split-apk\debug\slices\slice_4.apk"

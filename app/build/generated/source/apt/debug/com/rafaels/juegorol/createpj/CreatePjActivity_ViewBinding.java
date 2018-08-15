@@ -24,7 +24,7 @@ public class CreatePjActivity_ViewBinding implements Unbinder {
   public CreatePjActivity_ViewBinding(CreatePjActivity target, View source) {
     this.target = target;
 
-    target.fragmentCreatePj = Utils.findRequiredViewAsType(source, R.id.fragment_create_pj, "field 'fragmentCreatePj'", RelativeLayout.class);
+    target.fragmentCreatePj = Utils.findRequiredViewAsType(source, R.id.fragment_root, "field 'fragmentCreatePj'", RelativeLayout.class);
     target.bottomNavigationView = Utils.findRequiredViewAsType(source, R.id.bottom_navigation_view, "field 'bottomNavigationView'", BottomNavigationView.class);
   }
 
