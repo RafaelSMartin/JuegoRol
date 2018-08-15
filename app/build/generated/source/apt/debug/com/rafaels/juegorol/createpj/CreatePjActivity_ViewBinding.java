@@ -3,6 +3,7 @@ package com.rafaels.juegorol.createpj;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.design.widget.BottomNavigationView;
 import android.view.View;
 import android.widget.RelativeLayout;
 import butterknife.Unbinder;
@@ -23,7 +24,8 @@ public class CreatePjActivity_ViewBinding implements Unbinder {
   public CreatePjActivity_ViewBinding(CreatePjActivity target, View source) {
     this.target = target;
 
-    target.fragmentRoot = Utils.findRequiredViewAsType(source, R.id.fragment_root, "field 'fragmentRoot'", RelativeLayout.class);
+    target.fragmentCreatePj = Utils.findRequiredViewAsType(source, R.id.fragment_create_pj, "field 'fragmentCreatePj'", RelativeLayout.class);
+    target.bottomNavigationView = Utils.findRequiredViewAsType(source, R.id.bottom_navigation_view, "field 'bottomNavigationView'", BottomNavigationView.class);
   }
 
   @Override
@@ -33,6 +35,7 @@ public class CreatePjActivity_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.fragmentRoot = null;
+    target.fragmentCreatePj = null;
+    target.bottomNavigationView = null;
   }
 }

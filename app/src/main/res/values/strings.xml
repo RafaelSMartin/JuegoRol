@@ -6,4 +6,8 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in_short">Registro</string>
 
+    <!-- Navigation_items -->
+    <string name="nav_main">Main</string>
+    <string name="nav_atributos">Caracteristicas</string>
+
 </resources>
